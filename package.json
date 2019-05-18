@@ -1,0 +1,30 @@
+{
+  "name": "simple-js-schnorr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azero123/simple-js-schnorr.git"
+  },
+  "keywords": [
+    "schnorr",
+    "bitcoin",
+    "signature"
+  ],
+  "author": "Azero123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azero123/simple-js-schnorr/issues"
+  },
+  "homepage": "https://github.com/Azero123/simple-js-schnorr#readme",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "simple-js-ec-math": "^1.7.2",
+    "simple-js-secp256k1": "github:Azero123/simple-js-secp256k1#master",
+    "simple-js-sha2-256": "^1.0.2"
+  }
+}
